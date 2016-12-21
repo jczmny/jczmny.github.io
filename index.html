@@ -1,146 +1,500 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页- 北京金成炙美农业科技有限公司 - Powered by JEECMS</title>
+<meta http-equiv="keywords" content="打捆机；福田雷沃；捡拾压捆机;圆捆机；秸秆打包机；福田雷沃－农业|金成炙美|农机|大数据"/>
+<meta http-equiv="description" content="北京金成炙美农业科技有限公司，主营割草机、搂草机、捡拾压捆机、TMR、节水灌溉设备、以及进口农机设备"/>
+<script src="r/cms/jquery.js" type="text/javascript"></script>
+<script src="r/cms/front.js" type="text/javascript"></script>
+<script type="text/javascript" src="r/cms/www/default/js/jquery.SuperSlide.js"></script>
+<link type="text/css" rel="stylesheet" href="r/cms/www/default/css/home.css" />
+
+<!--[if lt IE 9]> 
+<script src="r/cms/www/default/js/html5shiv.min.js"></script>
+<script src="r/cms/www/default/js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript">
+$(function() {
+	Cms.siteFlow("", location.href, document.referrer, "true");
+	$.cookie("_site_id_cookie","1",{path: '' });
+});
+</script>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>JCZMNY</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="css/main.min.css">
-</head>
 <body>
-	<!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
-	<a id="back-to-top" href="#" class="btn btn-default back-to-top" role="button" title="Back to top of page"
-		data-toggle="tooltip" data-placement="left"><i class="fa fa-chevron-up"></i></a>
-	<div class="jumbotron">
-		<div class="container">
-			<h1>
-				铸就梦想<span id="rotate-word">Give</span>
-			</h1>
-		</div>
-	</div>
-	<nav class="navbar" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span
-						class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="http://jczmny.github.io"><img id="saplogo" alt="SAP Logo" src="img/saplogo.png"
-					height="35"></a>
-			</div>
-			<div class="navbar-collapse collapse navbar-responsive-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav" id="nav">
-					<li><a class="filter nav-category">特色</a></li>
-					<li class="divider-vertical"></li>
-					<li><a class="filter nav-category">首页</a></li>
-					<li><a class="filter nav-category">云</a></li>
-					<li><a class="filter nav-category">数据</a></li>
-					<li><a class="filter nav-category">接口</a></li>
-					<li><a class="filter nav-category">手机</a></li>
-					<li class="divider-vertical"></li>
-					<li><a class="filter nav-category">通用</a></li>
-				</ul>
-				<form class="navbar-form navbar-right" role="search" onsubmit="return false">
-					<div class="form-group">
-						<input type="text" class="form-control" id="searchTxt" placeholder="Search Projects">
-					</div>
-				</form>
-			</div>
-		</div>
-	</nav>
-	<div class="container content">
-		<div id="sortRow" class="row">
-			<div class="col-md-offset-10 col-md-2" style="text-align: right">
-				排序:
-				<div class="btn-group">
-					<button type="button" class="btn btn-default btn-xs btn-toggle active" id="sortAsc">
-						<i class="fa fa-sort-alpha-asc"></i>
-					</button>
-					<button type="button" class="btn btn-default btn-xs btn-toggle" id="sortNewest">
-						<i class="fa fa-clock-o"></i>
-					</button>
-				</div>
-			</div>
-		</div>
-		<div id="Container" class="row Container">
-			<div class="row text-center">
-				<img id="preloader" alt="Loading ..." src="img/oval.svg">
-			</div>
-			<div class="col-md-6" style="visibility: hidden">
-				<div class="mix">
-					<div class="row header">
-						<div class="col-md-8 col-xs-8">
-							<span class="title"></span>
-						</div>
-						<div class="col-md-2 col-xs-2 text-right">
-							<span class="stars"><i class="fa fa-star"></i></span>
-						</div>
-						<div class="col-md-2 col-xs-2 text-right">
-							<span class="forks"><i class="fa fa-code-fork"></i></span>
-						</div>
-					</div>
-					<div class="row details">
-						<div class="col-md-6 col-sm-6 hidden-xs">
-							<span class="updatedAt"></span>
-						</div>
-						<div class="col-md-6 col-sm-6 hidden-xs text-right">
-							<span class="watchers"><i class="fa fa-eye"></i></span>
-						</div>
-					</div>
-					<div class="row description">
-						<div class="col-md-12">
-							<p class="desc-text"></p>
-						</div>
-					</div>
-					<hr>
-					<div class="row more-details">
-						<div class="col-md-6 col-sm-6">
-							<span class="language"></span>
-						</div>
-						<div class="col-md-6 col-sm-6 text-right">
-							<span class="categories"><a class="filter"></a></span>
-						</div>
-					</div>
-					<div class="row actions">
-						<div class="col-md-6">
-							<a target="_blank" class="btn btn-info btn-bottom-left" href="https://github.com/SAP/openui5" role="button"><i
-								class="fa fa-github"></i></a>
-						</div>
-						<div class="col-md-6">
-							<a target="_blank" class="btn btn-success btn-bottom-right" href="http://openui5.org" role="button"><i
-								class="fa fa-external-link"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<hr>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12" id="templateLbl">
-				Looking to create an open source project with SAP? Contact us at <a href="mailto:developers@sap.com">developers@sap.com</a>
-				and we will get you details on our Outbound Open Source process.
-			</div>
-		</div>
-	</div>
-	<div id="footer">
-		<div class="container">
-			<span id="copyright">© JCZM Labs, made available under Apache License 2.0</span>
-			<ul class="nav navbar-nav nav-footer">
-				<li><a target="_blank" href="http://sap.github.io/openui5/impressum.html">Legal Disclosure / Impressum</a></li>
-				<li><a target="_blank" href="http://global.sap.com/corporate-en/legal/privacy.epx">Privacy</a></li>
-				<li><a target="_blank" href="http://www.sap.com/germany/about/legal/privacy.html">Datenschutz</a></li>
-				<li><a target="_blank" href="http://sap.github.io/openui5/ga_disclaimer.html">Google Analytics Disclaimer</a></li>
-			</ul>
-		</div>
-	</div>
-	<script src="js/main.min.js"></script>
-</body>
+<section class="top">
+  <div class="red" style="width:100%;"></div>	
+</section>
+<link rel="stylesheet" type="text/css" href="r/cms/www/default/css/login.css" />
+<script>
+function qkeypress(){
+	var q=$("input[name=q]");
+	if(q.val().trim()!=""){
+		$("input[name=q]").autocomplete("enable");
+	}else{
+		$("input[name=q]").autocomplete("disable");
+	}
+}
+</script>
+<header class="header rel">
+  <div class="header-jf"><a class="jf-btn" name="gb2big5" id="gb2big5">繁</a></div>
+  <Script Language=Javascript Src="r/cms/gb2big5.js"></Script>
+  <div class="header-rss"><a class="rss-btn" href="/rss.jspx" target="_blank" title="RSS订阅">RSS</a></div>
+  <div class="header-tag"><a class="tag-btn" href="/tag.jspx" target="_blank" title="Tags标签">Tags</a></div>
+  <div class="container clearfix">
+    <!--a class="logo" href="/"></a-->
+	<a href="index.aspx"><img class="logo" title="北京金成炙美农业科技有限公司" alt="北京金成炙美农业科技有限公司" src="r/cms/www/default/images/jczm.png"></a>
+<nav class="nav">
+           <ul class="menu">
+        <li><a href="/html/sy/">首页</a></li>
+        <li><a href="http://jczmny.com:8080/cpzx/index.jhtml">产品中心</a></li>
+        <li><a href="http://jczmny.com:8080/xydt/index.jhtml">行业动态</a></li>
+        <li><a href="http://bbs.jeecms.com" target="_blank">论坛</a></li>     
+        <li class="more">      
+      <a href="http://jczmny.com:8080/zxns/index.jhtml">招贤纳士</a>
+          <ul class="menu-child">
+            <li><a href="/guestbook.jspx">企业概况</a></li>
+            <li><a href="http://jczmny.com:8080/cpsc.jhtml">产品商城</a></li>
+          </ul>
+        </li> 
+      </ul>
+    </nav>    <div class="header-r">     
+      <div class="search">
+        <form action="/search.jspx" target="_blank" id="searchForm">
+        <input type="text" name="q" value="" maxlength="50" autocomplete="off" class="searchCon"><input type="submit" value="" class="searchMenu">
+        </form>
+      </div>      
+      
+      <div class="login"><a class="tc" href="/login.jspx">登录</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/register.jspx">注册</a></div>
+    </div> 
+  </div>
+</header><div class="main container home-main clearfix">
+  <section class="top-ad">
+    <a class="top-ad-pic"><img src="r/cms/www/default/images/ad02.jpg"><i>广告</i></a>
+  </section>
+  <section class="home-top clearfix">
+    <div class="left-two fl">
+      <div class="rmht">
+        <div class="left-nav"><span>热门话题</span></div>
+        <div class="rmht-list">
+          <div class="item first">
+            <a href="/html/sy/20160719/14.html" target="_blank" class="title">习近平宁夏考察第一天：长征永远在路上</a>
+            <div class="first-des clearfix"><a href="/html/sy/20160719/14.html" target="_blank"><img src="/u/cms/www/201607/19142033fu5h.jpg"></a><span>习近平考察宁夏首站到固原，冒雨向红军长征会师纪念碑敬献花篮。</span></div>
+          </div>
+          <div class="item">
+            <a href="/html/sy/20160923/33.html" target="_blank" class="title">亚马逊股价首破800美元大关 市值稳居全...</a>
+            
+          </div>
+          <div class="item">
+            <a href="/html/sy/20160923/39.html" target="_blank" class="title">四川理塘县发生4.9级地震 震源深度19千米</a>
+            
+          </div>
+          <div class="item">
+            <a href="/html/sy/20161010/112.html" target="_blank" class="title">电信诈骗多发产生“蝴蝶效应”虚拟运营...</a>
+            
+          </div>
+          <div class="item">
+            <a href="/html/sy/20161010/111.html" target="_blank" class="title">专访百度科学家徐伟：百度比谷歌的人工...</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="jcpl">
+        <div class="left-nav"><span>精彩评论</span></div>
+        <div class="jcpl-list">
+          <div class="item">
+            <a href="/html/sy/20161010/132.html" target="_blank">燃烧吧小宇宙，中国大妈征服世界，哈哈哈哈...</a>
+            <span>原新闻：黄金接连下跌难道又等大妈来托盘</span>
+          </div>
+          <div class="item">
+            <a href="/html/sy/20161010/130.html" target="_blank">保持定力：坚持走中国特色解决民族问题的正确道路</a>
+            <span>原新闻：党中央推进民族工作创新发展纪实</span>
+          </div>
+          <div class="item">
+            <a href="/html/sy/20160923/39.html" target="_blank">四川人民伤不起，忘国家加紧开展救援以及灾后重建工作。</a>
+            <span>原新闻：四川理塘县发生4.9级地震 震源深度19千米</span>
+          </div>
+          <div class="item">
+            <a href="/html/sy/20160923/30.html" target="_blank">早就该这样了，不知道多少不法分子利用不实名手机号进行诈骗。</a>
+            <span>原新闻：不实名手机号停机在即 移动：不对任何社会渠道授权网络售卡</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rdjj fl">
+      <div class="nav-link"><a href="/news/index.jhtml">热点聚焦</a></div>
+      <div class="rdjj-top-news"><a href="/html/sy/20161010/113.html" target="_blank">李克强联合国承诺援助难民：这是责任和道义的担当</a></div>
+      <div class="rdjj-list">
+        <ul>
+          <li><a href="/html/sy/20161010/130.html" target="_blank" class="bold">党中央推进民族工作创新发展纪实</a></li>
+          <li><a href="/html/sy/20161010/132.html" target="_blank" >黄金接连下跌难道又等大妈来托盘</a></li>
+          <li><a href="/html/sy/20161010/131.html" target="_blank" >楼市调控应跳出周期性怪圈</a></li>
+          <li><a href="/html/sy/20161010/112.html" target="_blank" >电信诈骗多发产生“蝴蝶效应”虚拟运营商融资受波及</a></li>
+          <li><a href="/html/sy/20161010/111.html" target="_blank" >专访百度科学家徐伟：百度比谷歌的人工智能平台更易上手</a></li>
+          <li><a href="/html/sy/20160923/39.html" target="_blank" >四川理塘县发生4.9级地震 震源深度19千米</a></li>
+          <li><a href="/html/sy/20160923/37.html" target="_blank" class="bold">苹果研发神秘新设备：体积类似Apple TV 支持NFC蓝牙</a></li>
+          <li><a href="/html/sy/20160923/36.html" target="_blank" >海银系接盘匹凸匹谜局待解：P2P业务惨淡收场 多次被调查</a></li>
+          <li><a href="/html/sy/20160923/33.html" target="_blank" >亚马逊股价首破800美元大关 市值稳居全球上市公司第四</a></li>
+          <li><a href="/html/sy/20160923/32.html" target="_blank" >台北故宫将拆除成龙所捐12兽首复制品 成龙回应</a></li>
+          <li><a href="/html/sy/20160923/30.html" target="_blank" >不实名手机号停机在即 移动：不对任何社会渠道授权网络售卡</a></li>
+          <li><a href="/html/sy/20160923/29.html" target="_blank" >深圳二手房卖主悔约不服判决 纠集60余人冲击法院</a></li>
+          <li><a href="/html/sy/20160922/28.html" target="_blank" class="bold">加拿大同意与中国协商引渡条约 转变抵制态度</a></li>
+          <li><a href="/html/sy/20160922/27.html" target="_blank" >“一带一路”：习近平打开的“筑梦空间”</a></li>
+          <li><a href="/html/sy/20160913/23.html" target="_blank" >“十一”黄金周凯里地区文化旅游活动精彩纷呈</a></li>
+          <li><a href="/html/sy/20160719/14.html" target="_blank" >习近平宁夏考察第一天：长征永远在路上</a></li>
+          <li><a href="/html/sy/20160715/12.html" target="_blank" >习近平就法国尼斯恐袭事件向法总统致慰问电</a></li>
+          <li><a href="/html/sy/20160715/11.html" target="_blank" >全国28省遭灾 已投入抗洪抢险777万人次</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="right-fr fr">
+      <div class="home-banner" id="section-focus-pic">
+        <div class="bd" data-scro="list">          
+          <ul>
+            <li class="item" style="left:0;"><a href="http://jczmny.com:8080/cpzx/13.jhtml" target="_blank"><img src="/u/cms/www/201607/19141129f6g4.jpg"><div class="banner-title"><i class="Cpic"></i><span>中国空军航空兵赴南海常态化战斗巡航</span></div></a></li>
+            <li class="item" ><a href="http://jczmny.com:8080/cpzx/116.jhtml" target="_blank"><img src="/u/cms/www/201610/10131742wzhv.jpg"><div class="banner-title"><i class="Cpic"></i><span>全世界最孤独的咖啡馆：海拔4860米 达古冰川之巅</span></div></a></li>
+            <li class="item" ><a href="http://jczmny.com:8080/cpzx/115.jhtml" target="_blank"><img src="/u/cms/www/201610/101314450fs1.jpg"><div class="banner-title"><i class="Cpic"></i><span>四川石渠发现至少30万公顷珍贵泥炭湿地资源</span></div></a></li>
+            <li class="item" ><a href="http://jczmny.com:8080/cpzx/114.jhtml" target="_blank"><img src="/u/cms/www/201610/101308178wzr.jpg"><div class="banner-title"><i class="Cpic"></i><span>科学家研制“隐身潜水服” 跟鲨鱼同游也不怕被</span></div></a></li>
+            <li class="item" ><a href="http://jczmny.com:8080/cpzx/7.jhtml" target="_blank"><img src="/u/cms/www/201607/151530033koq.jpg"><div class="banner-title"><i class="Cpic"></i><span>震撼的视角！2016年度无人机摄影大赛佳作大赏</span></div></a></li>
+          </ul>
+        </div>
+        <div class="hd" data-scro="controler">
+               <b class="down">1</b>
+               <b >2</b>
+               <b >3</b>
+               <b >4</b>
+               <b >5</b>
+               <span>/5</span>
+        </div>
+        <div class="controler2" data-scro="controler2">
+		  <a href="javascript:;" class="prev"><i></i></a>
+		  <a href="javascript:;" class="next"><i></i></a>
+	    </div>
+        <script type="text/javascript" src="r/cms/www/default/js/script.js"></script>
+      </div>
+      <div class="home-video">
+        <div class="nav-link"><a href="/video/index.jhtml">视频新闻</a></div>
+        <div class="item clearfix" style="margin-top:14px;">
+          <div class="video-pic fl"><a href="http://jczmny.com:8080/xydt/121.jhtml" target="_blank"><img src="/u/cms/www/201610/10133710to3f.jpg"><span>《半妖倾城》爱与恨，追</span></a></div>
+          <div class="video-txt">
+            <ul>
+              <li><a href="http://jczmny.com:8080/xydt/129.jhtml" target="_blank">北京特战队员魔鬼周训练 挑战50项最严苛</a></li>
+              <li><a href="http://jczmny.com:8080/xydt/128.jhtml" target="_blank">德国举行南瓜称重比赛 763公斤南瓜获得加</a></li>
+              <li><a href="http://jczmny.com:8080/xydt/127.jhtml" target="_blank">美国金秋不止红叶</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="item clearfix">
+          <div class="video-pic fl"><a href="http://jczmny.com:8080/xydt/123.jhtml" target="_blank"><img src="/u/cms/www/201610/10134048htcl.jpg"><span>《奔跑吧兄弟》收官对决</span></a></div>
+          <div class="video-txt">
+            <ul>
+              <li><a href="http://jczmny.com:8080/xydt/126.jhtml" target="_blank">西北第一村白哈巴的早秋</a></li>
+              <li><a href="http://jczmny.com:8080/xydt/125.jhtml" target="_blank">习主席和中央军委领导推进军队战斗力建设</a></li>
+              <li><a href="http://jczmny.com:8080/xydt/124.jhtml" target="_blank">李克强出席加拿大总理家宴 小小特鲁多表</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="video-list">
+            <ul>
+              <li><a href="http://jczmny.com:8080/xydt/63.jhtml" target="_blank">宇航员拍摄地球夜景：灯火辉煌灿烂 海水平滑如镜</a></li>
+              <li><a href="http://jczmny.com:8080/xydt/61.jhtml" target="_blank">莫斯科举办国际灯光节</a></li>
+              <li><a href="http://jczmny.com:8080/xydt/59.jhtml" target="_blank">旅比大熊猫宝宝取名“天宝”</a></li>
+              <li><a href="http://jczmny.com:8080/xydt/57.jhtml" target="_blank">本网记者体验360行之【183】另类“复制”</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="home-ad02"><a><img src="r/cms/www/default/images/ds_banner.png"></a></section>
+  <section class="home-ch clearfix">
+    <div class="home-ch-left fl">
+      <div class="jczt">
+        <div class="jczt-nav">精彩专题</div>
+        <div class="jczt-list">
+          <div class="home-jczt">
+          <a href="/topic/3.jspx" target="_blank"><img src="/u/cms/www/201610/101010021q7v.jpg"></a>
+          <a href="/topic/2.jspx" target="_blank"><img src="/u/cms/www/201610/10100842hqdk.jpg"></a>
+          <a href="/topic/1.jspx" target="_blank"><img src="/u/cms/www/201610/10100951y2xy.jpg"></a>
+          </div>
+        </div>
+      </div>
+      <div class="zxly">
+        <div class="left-nav"><span>最新留言</span></div>
+        <div class="jcpl-list" style="padding-top:10px;">
+          <div class="item" style="border-top:none;">
+            <a>请问在内容中上传视频的限制是多大，能不能自己设置设置视频的大小	</a>
+          </div>
+          <div class="item" >
+            <a>网店和论坛的用户管理和jeecms&nbsp;可以统一起来吗？	</a>
+          </div>
+          <div class="item" >
+            <a>怎么在页面首页放一个视频之后我点击的时候就可以看？</a>
+          </div>
+          <div class="item" >
+            <a>新版jeecms&nbsp;v8的改动很大，希望做得更好，持续关注中。</a>
+          </div>
+        </div>
+        <div class="message"><a href="/guestbook.jspx"><img src="r/cms/www/default/images/message.png"></a></div>
+      </div>
+    </div>
+    <div class="home-ch-m fl">
+    <div class="rdjj">
+      <div class="nav-link"><a href="/job/index.jhtml">招聘板块</a></div>
+      <div class="rdjj-list job-list">
+        <ul>
+          <li><a class="bold" href="http://jczmny.com:8080/zxns/140.jhtml" target="_blank">安卓游戏开发5险1金/<span>重庆</span>/JEECMS开发站2016-10-10</a></li>
+          <li><a  href="http://jczmny.com:8080/zxns/51.jhtml" target="_blank">诚聘微信推广专员/<span>西安</span>/JEECMS开发站2016-09-26</a></li>
+          <li><a  href="http://jczmny.com:8080/zxns/50.jhtml" target="_blank">聘网页前端设计3K双休/<span>南京</span>/JEECMS开发站2016-09-26</a></li>
+          <li><a  href="http://jczmny.com:8080/zxns/49.jhtml" target="_blank">IT公司招软件工程师助理/<span>重庆</span>/JEECMS开发站2016-09-26</a></li>
+          <li><a  href="http://jczmny.com:8080/zxns/48.jhtml" target="_blank">急聘Android开发/<span>杭州</span>/JEECMS开发站2016-09-26</a></li>
+          <li><a  href="http://jczmny.com:8080/zxns/47.jhtml" target="_blank">3k计算机实习生双休/<span>重庆</span>/JEECMS开发站2016-09-26</a></li>
+          <li><a class="bold" href="http://jczmny.com:8080/zxns/46.jhtml" target="_blank">项目经理/<span>广州</span>/JEECMS开发站2016-09-26</a></li>
+          <li><a  href="http://jczmny.com:8080/zxns/45.jhtml" target="_blank">文案编辑/<span>北京</span>/JEECMS开发站2016-09-26</a></li>
+          <li><a  href="http://jczmny.com:8080/zxns/44.jhtml" target="_blank">asp.net开发工程师/<span>上海</span>/JEECMS开发站2016-09-26</a></li>
+          <li><a  href="http://jczmny.com:8080/zxns/43.jhtml" target="_blank">web前端开发人员/<span>南昌</span>/JEECMS开发站2016-09-26</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="rdjj" style="margin-top:16px;">
+      <div class="nav-link"><a href="/doc/index.jhtml">新闻板块</a></div>
+      <div class="rdjj-list job-list doc-list">
+        <ul>
+          <li ><a class="bold" href="/html/sy/20161010/130.html" target="_blank">党中央推进民族工作创新发展纪实|2016-10-10</a></li>
+          <li ><a  href="/html/sy/20161010/132.html" target="_blank">黄金接连下跌难道又等大妈来托盘|2016-10-10</a></li>
+          <li ><a  href="/html/sy/20161010/131.html" target="_blank">楼市调控应跳出周期性怪圈|2016-10-10</a></li>
+          <li ><a  href="/html/sy/20161010/113.html" target="_blank">李克强联合国承诺援助难民：这是责任和道义的担当|2016-10-10</a></li>
+          <li ><a  href="/html/sy/20161010/112.html" target="_blank">电信诈骗多发产生“蝴蝶效应”虚拟运营商融资受波及|2016-10-10</a></li>
+          <li ><a  href="/html/sy/20161010/111.html" target="_blank">专访百度科学家徐伟：百度比谷歌的人工智能平台更易上手|2016-10-10</a></li>
+          <li ><a class="bold" href="/html/sy/20160923/39.html" target="_blank">四川理塘县发生4.9级地震 震源深度19千米|2016-09-23</a></li>
+          <li ><a  href="/html/sy/20160923/37.html" target="_blank">苹果研发神秘新设备：体积类似Apple TV 支持NFC蓝牙|2016-09-23</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    <div class="home-ch-m fr clearfix">
+    <div class="rdjj" style="margin:0; overflow:hidden;">
+      <div class="nav-link"><a href="/download/index.jhtml">下载板块</a></div>
+      <div class="dl-list clearfix">
+        <div class="item clearfix">
+          <div class="dl-pic"><a href="http://jczmny.com:8080/mtzs/110.jhtml" target="_blank"><img src="/u/cms/www/201610/101135560ne4.jpg"></a></div>
+          <div>
+            <a href="http://jczmny.com:8080/mtzs/110.jhtml" target="_blank" class="dl-txt">腾讯视频</a>
+            <a href="http://jczmny.com:8080/mtzs/110.jhtml" target="_blank" class="dl-btn"><img src="/r/cms/www/default/images/dl-btn.gif"></a>
+          </div>
+        </div>
+        <div class="item clearfix">
+          <div class="dl-pic"><a href="http://jczmny.com:8080/mtzs/109.jhtml" target="_blank"><img src="/u/cms/www/201610/1011351336l0.jpg"></a></div>
+          <div>
+            <a href="http://jczmny.com:8080/mtzs/109.jhtml" target="_blank" class="dl-txt">PPTV聚力</a>
+            <a href="http://jczmny.com:8080/mtzs/109.jhtml" target="_blank" class="dl-btn"><img src="/r/cms/www/default/images/dl-btn.gif"></a>
+          </div>
+        </div>
+        <div class="item clearfix">
+          <div class="dl-pic"><a href="http://jczmny.com:8080/mtzs/108.jhtml" target="_blank"><img src="/u/cms/www/201610/10113400utfn.jpg"></a></div>
+          <div>
+            <a href="http://jczmny.com:8080/mtzs/108.jhtml" target="_blank" class="dl-txt">360浏览器</a>
+            <a href="http://jczmny.com:8080/mtzs/108.jhtml" target="_blank" class="dl-btn"><img src="/r/cms/www/default/images/dl-btn.gif"></a>
+          </div>
+        </div>
+        <div class="item clearfix">
+          <div class="dl-pic"><a href="http://jczmny.com:8080/mtzs/107.jhtml" target="_blank"><img src="/u/cms/www/201610/10113226knhj.jpg"></a></div>
+          <div>
+            <a href="http://jczmny.com:8080/mtzs/107.jhtml" target="_blank" class="dl-txt">谷歌浏览器</a>
+            <a href="http://jczmny.com:8080/mtzs/107.jhtml" target="_blank" class="dl-btn"><img src="/r/cms/www/default/images/dl-btn.gif"></a>
+          </div>
+        </div>
+        <div class="item clearfix">
+          <div class="dl-pic"><a href="http://jczmny.com:8080/mtzs/106.jhtml" target="_blank"><img src="/u/cms/www/201610/101130399dbt.jpg"></a></div>
+          <div>
+            <a href="http://jczmny.com:8080/mtzs/106.jhtml" target="_blank" class="dl-txt">爱奇艺视频</a>
+            <a href="http://jczmny.com:8080/mtzs/106.jhtml" target="_blank" class="dl-btn"><img src="/r/cms/www/default/images/dl-btn.gif"></a>
+          </div>
+        </div>
+        <div class="item clearfix">
+          <div class="dl-pic"><a href="http://jczmny.com:8080/mtzs/105.jhtml" target="_blank"><img src="/u/cms/www/201610/10112845wryq.jpg"></a></div>
+          <div>
+            <a href="http://jczmny.com:8080/mtzs/105.jhtml" target="_blank" class="dl-txt">阿里旺旺</a>
+            <a href="http://jczmny.com:8080/mtzs/105.jhtml" target="_blank" class="dl-btn"><img src="/r/cms/www/default/images/dl-btn.gif"></a>
+          </div>
+        </div>
+        <div class="item clearfix">
+          <div class="dl-pic"><a href="http://jczmny.com:8080/yxyl/104.jhtml" target="_blank"><img src="/u/cms/www/201610/10112706jiii.jpg"></a></div>
+          <div>
+            <a href="http://jczmny.com:8080/yxyl/104.jhtml" target="_blank" class="dl-txt">YY语音</a>
+            <a href="http://jczmny.com:8080/yxyl/104.jhtml" target="_blank" class="dl-btn"><img src="/r/cms/www/default/images/dl-btn.gif"></a>
+          </div>
+        </div>
+        <div class="item clearfix">
+          <div class="dl-pic"><a href="http://jczmny.com:8080/xtrj/103.jhtml" target="_blank"><img src="/u/cms/www/201610/101120330mpz.jpg"></a></div>
+          <div>
+            <a href="http://jczmny.com:8080/xtrj/103.jhtml" target="_blank" class="dl-txt">搜狗输入法</a>
+            <a href="http://jczmny.com:8080/xtrj/103.jhtml" target="_blank" class="dl-btn"><img src="/r/cms/www/default/images/dl-btn.gif"></a>
+          </div>
+        </div>
+        <div class="item clearfix">
+          <div class="dl-pic"><a href="http://jczmny.com:8080/xtrj/102.jhtml" target="_blank"><img src="/u/cms/www/201610/101119092w8r.jpg"></a></div>
+          <div>
+            <a href="http://jczmny.com:8080/xtrj/102.jhtml" target="_blank" class="dl-txt">360安全卫士</a>
+            <a href="http://jczmny.com:8080/xtrj/102.jhtml" target="_blank" class="dl-btn"><img src="/r/cms/www/default/images/dl-btn.gif"></a>
+          </div>
+        </div>
+        <div class="item clearfix">
+          <div class="dl-pic"><a href="http://jczmny.com:8080/mtzs/101.jhtml" target="_blank"><img src="/u/cms/www/201610/10111618rhdk.jpg"></a></div>
+          <div>
+            <a href="http://jczmny.com:8080/mtzs/101.jhtml" target="_blank" class="dl-txt">迅雷9</a>
+            <a href="http://jczmny.com:8080/mtzs/101.jhtml" target="_blank" class="dl-btn"><img src="/r/cms/www/default/images/dl-btn.gif"></a>
+          </div>
+        </div>
+        <div class="item clearfix">
+          <div class="dl-pic"><a href="http://jczmny.com:8080/yxyl/100.jhtml" target="_blank"><img src="/u/cms/www/201610/10110634gxcz.jpg"></a></div>
+          <div>
+            <a href="http://jczmny.com:8080/yxyl/100.jhtml" target="_blank" class="dl-txt">诺亚传说</a>
+            <a href="http://jczmny.com:8080/yxyl/100.jhtml" target="_blank" class="dl-btn"><img src="/r/cms/www/default/images/dl-btn.gif"></a>
+          </div>
+        </div>
+        <div class="item clearfix">
+          <div class="dl-pic"><a href="http://jczmny.com:8080/xtrj/72.jhtml" target="_blank"><img src="/u/cms/www/201609/27101524dxj7.jpg"></a></div>
+          <div>
+            <a href="http://jczmny.com:8080/xtrj/72.jhtml" target="_blank" class="dl-txt">360杀毒</a>
+            <a href="http://jczmny.com:8080/xtrj/72.jhtml" target="_blank" class="dl-btn"><img src="/r/cms/www/default/images/dl-btn.gif"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rdjj" style="margin-top:16px; margin-left:0">
+      <div class="nav-link"><a href="/survey/index.jhtml">网络调查</a></div>
+      <div class="rdjj-list job-list">
+        <ul>
+          <li><a class="bold" href="/vote.jspx?voteId=11" target="_blank">专家建议取消住房公积金，这事儿你咋看？|2018-10-18</a></li>
+          <li><a  href="/vote.jspx?voteId=10" target="_blank">国庆长假结束,您尽兴了吗?|2017-10-10</a></li>
+          <li><a  href="/vote.jspx?voteId=9" target="_blank">南昌“我的校园我的家 温馨校园”评选活动|2017-12-01</a></li>
+          <li><a  href="/vote.jspx?voteId=8" target="_blank">微信拍照大奖赛优秀作品 投票 开始啦|2016-10-27</a></li>
+          <li><a  href="/vote.jspx?voteId=7" target="_blank">“樱花女神”评选大赛 第一季|2017-10-18</a></li>
+          <li><a  href="/vote.jspx?voteId=6" target="_blank">2015年度好声音评选|2016-12-31</a></li>
+          <li><a class="bold" href="/vote.jspx?voteId=5" target="_blank">最美志愿者评选|2019-01-09</a></li>
+          <li><a  href="/vote.jspx?voteId=4" target="_blank">男神女神主持选拔大赛|2020-10-09</a></li>
+          <li><a  href="/vote.jspx?voteId=3" target="_blank">工资收入问卷调查|2016-09-30</a></li>
+          <li><a  href="/vote.jspx?voteId=2" target="_blank">JEECMS演示站改版用户问卷调查|已结束</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="rdjj tssj">
+    <div class="nav-link"><a>图说世界</a></div>
+    <script type="text/javascript" src="r/cms/www/default/js/jquery.bxslider.js"></script>
+    <link href="r/cms/www/default/css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+    <div class="tssj-list">
+      <div class="item">
+        <a href="http://jczmny.com:8080/cpzx/13.jhtml" target="_blank"><img src="/u/cms/www/201607/19141129f6g4.jpg"><span>中国空军航空兵赴南海常态化战</span></a>
+      </div>
+      <div class="item">
+        <a href="http://jczmny.com:8080/cpzx/120.jhtml" target="_blank"><img src="/u/cms/www/201610/10133449hwwr.jpg"><span>宛如置身黑客帝国 “啤酒丛林</span></a>
+      </div>
+      <div class="item">
+        <a href="http://jczmny.com:8080/cpzx/119.jhtml" target="_blank"><img src="/u/cms/www/201610/101326014zdc.jpg"><span>摄影师拍摄巨鳄破水而出吞食猎</span></a>
+      </div>
+      <div class="item">
+        <a href="http://jczmny.com:8080/cpzx/118.jhtml" target="_blank"><img src="/u/cms/www/201610/10132253w0rj.jpg"><span>探访燕城监狱：蔬菜自己种 午</span></a>
+      </div>
+      <div class="item">
+        <a href="http://jczmny.com:8080/cpzx/117.jhtml" target="_blank"><img src="/u/cms/www/201610/101320442qbi.jpg"><span>中俄“合作－2016”联合反恐训</span></a>
+      </div>
+      <div class="item">
+        <a href="http://jczmny.com:8080/cpzx/116.jhtml" target="_blank"><img src="/u/cms/www/201610/10131742wzhv.jpg"><span>全世界最孤独的咖啡馆：海拔48</span></a>
+      </div>
+      <div class="item">
+        <a href="http://jczmny.com:8080/cpzx/115.jhtml" target="_blank"><img src="/u/cms/www/201610/101314450fs1.jpg"><span>四川石渠发现至少30万公顷珍贵</span></a>
+      </div>
+      <div class="item">
+        <a href="http://jczmny.com:8080/cpzx/114.jhtml" target="_blank"><img src="/u/cms/www/201610/101308178wzr.jpg"><span>科学家研制“隐身潜水服” 跟</span></a>
+      </div>
+      <div class="item">
+        <a href="http://jczmny.com:8080/cpzx/7.jhtml" target="_blank"><img src="/u/cms/www/201607/151530033koq.jpg"><span>震撼的视角！2016年度无人机摄</span></a>
+      </div>
+      <div class="item">
+        <a href="http://jczmny.com:8080/cpzx/2.jhtml" target="_blank"><img src="/u/cms/www/201607/15154249ucra.jpg"><span>法国尼斯发生汽车冲撞事故 已</span></a>
+      </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.tssj-list').bxSlider({
+            slideWidth: 224,
+            minSlides: 1,
+            maxSlides: 5,
+            slideMargin: 20
+          });
+        });
+    </script> 
+  </section>
+</div>
+<footer class="footer">
+  <div class="footer-link container">
+    <a style="margin-left:0;" href="http://www.jeecms.com">关于我们</a><a href="http://www.jeecms.com/lxwm.htm">联系我们</a><a href="http://www.jeecms.com/zhaopin.htm">诚聘英才</a><a href="http://www.jeecms.com/">友情链接</a><a href="http://bbs.jeecms.com/fabu/index.jhtml">程序下载</a><a href="http://www.jeecms.com/ad.htm">合作服务</a><a href="http://www.jeecms.com/xkxy.htm">许可协议</a><a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a><a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a><a href="http://v8.jeecms.com/jeeadmin/jeecms/index.do" target="_blank">管理登录</a>
+  </div>
+  <div class="copyright container"><p>电话：0791-86538070　13576281815     传真：0791-86538070     ICP备案号：赣ICP备13005266号     Powered by JeeCms Copyright © 2007-2015 www.jeecms.com, All Rights Reserved</p>
+      	<p>
+  	浏览总量<span id="pv"></span> |  访客数总量 <span id="visitor"></span>|  
+  	今日浏览总量<span id="dayPv"></span>  |  今日访客数<span id="dayVisitor"></span>|  
+  	本周浏览总量<span id="weekPv"></span>  |  本周访客数<span id="weekVisitor"></span>| 
+  	本月浏览总量<span id="monthPv"></span>  |  本月访客数<span id="monthVisitor"></span>
+  	</p> 
+  </div>
+</footer>
+<script type="text/javascript" language="javascript">
+   //加入收藏
+       function AddFavorite(sURL, sTitle) {
+           sURL =encodeURI(sURL); 
+       try{   
+          window.external.addFavorite(sURL, sTitle);   
+       }catch(e) {   
+          try{   
+              window.sidebar.addPanel(sTitle, sURL, "");   
+           }catch (e){   
+              alert("您的浏览器不支持自动加入收藏功能，请使用Ctrl+D进行添加，或手动在浏览器里进行设置！");
+          }   
+       }
+   }
+   
+   //设为首页
+   function SetHome(url){
+       if (document.all) {
+          document.body.style.behavior='url(#default#homepage)';
+             document.body.setHomePage(url);
+       }else{
+           alert("您的浏览器不支持自动设置页面为首页功能，请您手动在浏览器里设置该页面为首页！");
+       }
+   }
+</script><div class="right-fixed">
+  <ul>
+    <!--
+    <li class="app">
+      <div class="app-logo"></div>
+    </li>
+    -->
+    <li class="weixin">
+      <div class="weixin-logo"></div>
+    </li>
+    <li class="wap">
+      <div class="wap-logo"><img src="r/cms/www/default/images/demension.png"></div>
+    </li>
+    <li class="back-top"></li>    
+  </ul>
+  <script type="text/javascript">
+	$(function(){
+		var $body = $(document.body);;
+		var $bottomTools = $('.right-fixed');
+			$(window).scroll(function () {
+				var scrollHeight = $(document).height();
+				var scrollTop = $(window).scrollTop();
+				scrollTop > 50 ? $(".back-top").slideDown(300).css("display","block") : $(".back-top").slideUp(300);			
+			});
+			$('.back-top').click(function (e) {
+				e.preventDefault();
+				$('html,body').animate({ scrollTop:0});
+			});
+			
+	});
+  </script>
+</div></body>
 </html>
